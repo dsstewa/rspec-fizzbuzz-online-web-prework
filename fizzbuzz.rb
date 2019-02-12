@@ -10,4 +10,4 @@ def fizzbuzz(x)
   binding.pry
 end
 
-fizzbuzz(3)
+fizzbuzz(15)
