@@ -3,5 +3,8 @@
 
 
 def fizzbuzz(x)
-  if x 
+  three = x / 3.0
+  five = x / 5.0
+  three
+  five
 end
