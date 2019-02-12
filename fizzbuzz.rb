@@ -3,8 +3,8 @@
 require 'pry'
 
 def fizzbuzz(x)
-  three = x / 3.0
-  five = x / 5.0
+  three = x % 3.0
+  five = x % 5.0
   three
   five
   binding.pry
