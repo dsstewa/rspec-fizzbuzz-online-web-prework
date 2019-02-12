@@ -7,11 +7,11 @@ def fizzbuzz(x)
   five = x % 5
   
   if three == 0 && five == 0 
-    FizzBuzz
+    'FizzBuzz'
   elsif three == 0
-  Fizz
+  'Fizz'
 elsif five == 0
-Buzz
+'Buzz'
 end
 
 end
