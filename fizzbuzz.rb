@@ -9,3 +9,5 @@ def fizzbuzz(x)
   five
   binding.pry
 end
+
+fizzbuzz(3)
