@@ -5,10 +5,13 @@ require 'pry'
 def fizzbuzz(x)
   three = x % 3
   five = x % 5
-  three
-  five
-  binding.pry
   
+  if three == 0 && five == 0 
+    FizzBuzz
+  elsif three == 0
+  Fizz
+elsif five == 0
+Buzz
 end
 
-fizzbuzz(15)
+end
